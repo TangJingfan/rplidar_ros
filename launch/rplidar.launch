@@ -7,4 +7,9 @@
   <param name="inverted"            type="bool"   value="false"/>
   <param name="angle_compensate"    type="bool"   value="true"/>
   </node>
+
+  <!-- publish static tf -->
+  <node pkg="tf" type="static_transform_publisher" name="laser_to_base_link" 
+        args="0.0 0.0 0.0 0 0 0 base_link laser 100" />
+
 </launch>
