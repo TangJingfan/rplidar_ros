@@ -8,7 +8,4 @@
   <param name="angle_compensate"    type="bool"   value="true"/>
   </node>
 
-  <!-- publish static tf -->
-  <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 /base_link /laser 100"/>
-
 </launch>
