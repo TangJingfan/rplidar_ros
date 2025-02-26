@@ -1,5 +1,0 @@
-<launch>
-  <include file="$(find rf2o_laser_odometry)/launch/rf2o_laser_odometry.launch" />
-
-  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
-</launch>
